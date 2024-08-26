@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(../img/pexels-negativespace-34650.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+
+header {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: darkslategrey;
+}
+
+nav {
+    padding: 1px;
+    background-color: rgb(148, 173, 173);
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: auto 80px;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+    font-size: 20px;
+    color: rgb(236, 240, 243);
+}
+
+form {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 500px;
+    padding: 30px;
+    margin: 10vh auto;
+    background-color: aliceblue;
+
+}
+
+form h2 {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin: -30px -30px 20px -30px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+form input {
+    margin: 5px auto;
+    padding: 5px;
+    width: 98%;
+}
+
+form textarea {
+    width: 100%;
+}
+
+form button {
+    width: 80px;
+    height: 40px;
+    border: none;
+    background-color: rgb(52, 52, 165);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 15px 0px 0 220px;
+    transition: 0.5s;
+}
+
+form button:hover {
+    font-size: 15px;
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: rgb(17, 17, 139);
+    box-shadow: 0 0 5px black;
+}
